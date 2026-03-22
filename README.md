@@ -1,12 +1,20 @@
-# claude-tmux
+# claude-tmux (fork)
+
+> **Fork of [nielsgroen/claude-tmux](https://github.com/nielsgroen/claude-tmux)** with UX tweaks — better highlight contrast, theming, and readability improvements for dark terminal themes.
 
 A terminal user interface for managing multiple Claude Code sessions within tmux. claude-tmux provides a centralized view of all your Claude Code instances, enabling quick switching, status monitoring, and session lifecycle management, including git worktree and pull request support.
 
 ## Installation
 
-### Cargo install
+### From this fork
 
-Just run:
+```bash
+git clone https://github.com/darrenspl/claude-tmux.git
+cd claude-tmux
+cargo install --path .
+```
+
+### From upstream (original)
 
 ```bash
 cargo install claude-tmux
